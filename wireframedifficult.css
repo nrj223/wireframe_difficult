@@ -1,0 +1,145 @@
+
+
+
+body{
+font-family: monospace;
+background-color: whitesmoke;
+color: white;
+margin: 0;}
+
+
+.container1 {
+display: grid; 
+grid-template-rows:  1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+height: 150%;
+gap: 10px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+margin-left: 10px;}
+
+.box1 {
+background-color: blueviolet; 
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 3;
+font-size: 25px;}
+
+.box2 {
+background-color: orchid; 
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 3;
+grid-column-end: 5;
+font-size: 25px;}
+
+.box3 {
+background-color: blueviolet; 
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 5;
+grid-column-end: 7;
+font-size: 25px;}
+
+.box4 {
+background-color: palevioletred; 
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 6;
+font-size: 25px;}
+
+.box5 {
+background-color:pink; 
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 6;
+grid-column-end: 7;
+font-size: 25px;}
+
+.box6 {
+background-color:blueviolet; 
+grid-row-start: 3;
+grid-row-end: 4;
+grid-column-start: 1;
+grid-column-end: 5;
+font-size: 25px;}
+
+.box7 {
+background-color:orchid; 
+grid-row-start: 3;
+grid-row-end: 5;
+grid-column-start: 5;
+grid-column-end: 7;
+font-size: 25px;}
+
+.box8 {
+background-color:pink; 
+grid-row-start: 4;
+grid-row-end: 5;
+grid-column-start: 1;
+grid-column-end: 5;
+font-size: 25px;}
+
+
+
+
+.container2 {
+display: grid; 
+grid-template-rows: 1fr .5fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+height: 50%;
+gap: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+margin-left: 10px;
+text-align: center;}
+
+
+.box9 {
+background-color: blueviolet; 
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 2;
+font-size: 25px;}
+
+.box10 {
+background-color: orchid; 
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 2;
+grid-column-end: 3;
+font-size: 25px;}
+
+.box11 {
+background-color: blueviolet; 
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 3;
+grid-column-end: 4;
+font-size: 25px;}
+
+.box12 {
+background-color: pink; 
+grid-row-start: 1;
+grid-row-end: 2;
+grid-column-start: 4;
+grid-column-end: 5;
+font-size: 25px;}
+
+.box13 {
+background-color:palevioletred; 
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 5;
+font-size: 25px;}
+
+
+
+
